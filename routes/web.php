@@ -1,6 +1,5 @@
 <?php
 
-use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Route;
 use App\Models\Job;
 
@@ -28,3 +27,6 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
+Route::get('/addjobs', function () {
+    return view('addjobs');
+});
